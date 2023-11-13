@@ -11,7 +11,7 @@
   
   * {
     box-sizing: border-box;
-  }
+  } 
   
   body {
     height: 100vh;
@@ -314,7 +314,7 @@
         var(--window-color2) 12%,
         var(--window-color2) 44%
       );
-  }
+  } 
   
   .fb6 {
     width: 9%;
@@ -350,19 +350,22 @@
           #223 100%
         );
     }
-    .flag1,.flag3{
-        left: 20px;
-        width:140px;
-        height:25px;
-        background-color: #4aa3f748;
-        border-left: solid grey;
-      }
-      .flag2{
-        left: 20px;
-        width:140px;
-        height:25px;
-        background: rgb(207,201,71);
-        background: radial-gradient(circle, rgba(207,201,71,1) 9%, rgba(255, 255, 255, 0.786) 17%, rgba(255,255,255,1) 100%);  
-        border-left: solid grey;
-      }  }
+    .flag1,
+    .flag3 {
+      left: 20px;
+      width: 140px;
+      height: 25px;
+      background-color: #4AA4F7;
+      border-left: solid grey;
+    }
+    .flag2 { 
+      left: 20px;
+      width: 140px;
+      height: 25px;
+      background: rgb(207, 201, 71);
+      background: radial-gradient(circle, rgba(207, 201, 71, 1) 9%, rgba(255, 255, 255, 0.786) 17%, rgba(255, 255, 255, 1) 100%);
+      border-left: solid grey;
+    }  
+  }
       
+/*  */
